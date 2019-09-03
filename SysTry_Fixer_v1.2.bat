@@ -1,15 +1,15 @@
 @echo off
-title SysTry Fixer v1.1
+title SysTry Fixer v1.2
 color 0a
 mode con: cols=25 lines=5
 echo.
-echo     SysTry Fixer v1.1
+echo     SysTry Fixer v1.2
 timeout /t 2 /nobreak >nul 2>&1
 cls
 echo.
 echo  Fixing...
 ::Applying this reg will skip PSKill license agrement.
-reg add "HKCU\Software\Sysinternals\PsKill" /v EulaAccepted /t REG_DWORD /d 00000001 >nul 2>&1
+reg add "HKCU\Software\Sysinternals\PsKill" /v EulaAccepted /t REG_DWORD /d 00000001 /f >nul 2>&1
 reg delete "HKCU\Software\Classes\Local Settings\Software\Microsoft\Windows\CurrentVersion\TrayNotify" /v IconStreams /f >nul 2>&1
 reg delete "HKCU\Software\Classes\Local Settings\Software\Microsoft\Windows\CurrentVersion\TrayNotify" /v PastIconsStream /f >nul 2>&1
 timeout /t 2 /nobreak >nul 2>&1
