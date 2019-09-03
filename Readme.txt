@@ -1,5 +1,5 @@
 ====================
-SysTry Fixer v1.1
+SysTry Fixer v1.2
 Author: @mribraqdbra
 ====================
 
@@ -12,6 +12,10 @@ Note!: This tool needs pskill to get It's work correctly.
 
 
 Change log:
+
+SysTry Fixer v1.2
+*Added /f switch.
+
 
 SysTry Fixer v1.1
 
