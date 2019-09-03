@@ -1,8 +1,10 @@
 @echo off
+echo  Loading...
 title SysTry Fixer v1.2
 color 0a
 mode con: cols=25 lines=5
 echo.
+cls
 echo     SysTry Fixer v1.2
 timeout /t 2 /nobreak >nul 2>&1
 cls
