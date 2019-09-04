@@ -15,7 +15,7 @@ Change log:
 
 SysTry Fixer v1.2
 *Added /f switch.
-*Added Loading function.
+*Much Improvements
 
 
 SysTry Fixer v1.1
